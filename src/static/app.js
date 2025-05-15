@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 ${details.participants
                   .map(
                     (email) =>
-                      `<li><span class=\"participant-badge\">${email}</span></li>`
+                      `<li><span class="participant-badge">${email}</span></li>`
                   )
                   .join("")}
               </ul>
